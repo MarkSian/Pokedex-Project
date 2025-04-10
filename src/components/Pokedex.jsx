@@ -6,8 +6,8 @@ function Pokedex() {
     const fetchPokemon = async () => {
         try {
             const data = await axios.get ("https://pokeapi.co/api/v2/pokemon?limit=151");
-            console.log('Data Fetched!:', data.data);
-            return data.data;
+            console.log('Data Fetched!:', data.data.results);
+            return data.data.results;
         }   catch (error) {
             console.error('Error fetching data:', error);
             throw error;
