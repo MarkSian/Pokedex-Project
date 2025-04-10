@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import PokemonCard from './PokemonCard.jsx';
 // Fetch Pokemon Data
 function Pokedex() {
   const [pokemonList, setPokemonList] = useState([]);
@@ -7,9 +8,9 @@ function Pokedex() {
     useEffect(() => {
       const fetchPokemon = async () => {
         try {
-            const data = await axios.get ("https://pokeapi.co/api/v2/pokemon?limit=151");
+            const data = await axios.get("https://pokeapi.co/api/v2/pokemon?limit=151");
             console.log('Data Fetched!:', data.data.results);
-            return data.data.results;
+            setPokemonList(data.data.results);
         }   catch (error) {
             console.error('Error fetching data:', error);
             throw error;
@@ -17,7 +18,6 @@ function Pokedex() {
     };
     fetchPokemon();
   }, []);
-      
 
 
     return (
