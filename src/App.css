@@ -2,3 +2,10 @@
 @plugin "daisyui" {
   themes: all;
 }
+
+
+
+
+* {
+  font-family: "Press Start 2P";
+}
