@@ -23,11 +23,23 @@ function Pokedex() {
   }, []);
 
   // Filter Pokemon based on search term
+  // useEffect(() => {
+  //   const filtered = pokemonList.filter(pokemon => 
+  //     pokemon.name.includes(searchTerm.toLowerCase())
+  //   );
+  //   setFilteredPokemon(filtered);
+  // }, [searchTerm, pokemonList]);
+  
   useEffect(() => {
-    const filtered = pokemonList.filter(pokemon => 
-      pokemon.name.includes(searchTerm.toLowerCase())
-    );
-    setFilteredPokemon(filtered);
+    try {
+      const filtered = pokemonList.filter(pokemon => 
+        pokemon.name.includes(searchTerm.toLowerCase())
+      );
+      console.log('Filtered Pokemon:', filtered);
+      setFilteredPokemon(filtered);
+    } catch (error) {
+      console.error('Error filtering Pokemon:', error);
+    }
   }, [searchTerm, pokemonList]);
 
 

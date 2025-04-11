@@ -5,7 +5,7 @@ const PokemonFilter = ({onSearchChange} ) => {
             placeholder="Search Pokemon" 
             class="input" 
             className="w-full max-w-xs"
-            onChange={(e) => onSearchChange(e.target.value)}
+            onChange={(e) => onSearchChange(e.target.value)} // event handler to update the search term
             />
         </div>
     );
