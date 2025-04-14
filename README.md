@@ -1,12 +1,34 @@
-# React + Vite
+# Vocaloid Fan Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Welcome to this fan made Pokedex-based project, a space for fans of the original 151 Pokemon and their shiny variations! This webpage is designed to simply display Gen 1 Pokemon in the order of their Pokedex entry. A search bar is present, where you can search for your pokemon and view their shiny form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Hero Section
+![alt text](src/assets/readmeimg.JPG)
 
-## Expanding the ESLint configuration
+## Table of Contents
+- [Description](#description)
+- [Credits](#credits)
+- [License](#license)
+- [Technology](#technology)
+- [Reflection](#reflection)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Credits
+
+Mark Sianipar
+
+## Technology
+
+This webpage was built primarily using React, Javascript, TailwindCSS and DaisyUI. The API used: https://pokeapi.co/
+
+
+## Reflection
+I used React for this project as a way to practice before formally learning it in the course. After completing the project, I realized that some core concepts—such as props, useState, and useEffect—are still a bit unclear to me.
+
+Moving forward, I plan to continue working with React in upcoming projects to strengthen my understanding of these fundamentals. Through hands on practice, I hope to gain more experience in managing state, side effects, and components effectively.
+
+## License
+
+MIT License
