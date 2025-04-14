@@ -4,7 +4,7 @@
 
 Welcome to this fan made Pokedex-based project, a space for fans of the original 151 Pokemon and their shiny variations! This webpage is designed to simply display Gen 1 Pokemon in the order of their Pokedex entry. A search bar is present, where you can search for your pokemon and view their shiny form.
 
-## Hero Section
+## Content
 ![alt text](src/assets/readmeimg.JPG)
 
 ## Table of Contents
