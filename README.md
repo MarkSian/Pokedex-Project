@@ -1,4 +1,4 @@
-# Vocaloid Fan Page
+# Pokemon Pokedex
 
 ## Description
 
